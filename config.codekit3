@@ -226,12 +226,6 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
-		},
-	"\/test\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/docs\/test\/index.html",
-		"oF": 0
 		}
 	},
 "hooks": [
@@ -243,7 +237,7 @@
 	"displayValue": "lvl-03",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-dunnoGirl",
-	"lastBuiltDate": 515637695
+	"lastBuiltDate": 515639632
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

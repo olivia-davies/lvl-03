@@ -15,12 +15,15 @@ t+=" .ui.visible."+a+".sidebar ~ .fixed, .ui.visible."+a+".sidebar ~ .pusher {  
 
 // @codekit-prepend "jquery.js";
 // @codekit-prepend "semantic.js";
+console.log('Yas Qween!');
+
+
 
 const inputs = document.querySelectorAll('.controls input');
 
 function handleUpdate() {
     const suffix = this.dataset.sizing || ''; 
-    document.documentElement.style.setProperty('${this.name},' this.value);
+    document.documentElement.style.setProperty(`--${this.name}`, this.value + suffix);
     
 };
 

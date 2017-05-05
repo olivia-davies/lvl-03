@@ -1,19 +1,20 @@
 /* Stylehsheet */
 @import "semantic";
 
-$base: #c0a7c7;
-$spacing: 10px;
-$blur: 10px;
-
+:root {
+    --base: #c0a7c7;
+    --spacing: 10px;
+    --rotate: 0deg;
+}
 
 img {
-    padding: $spacing;
-    background: $base;
-    filter: blur($blur);
+    padding: var(--spacing);
+    background: var(--base);
+    rotate: var(--rotate);
 }
 
 .hl {
-    color: $base;
+    color: var(--base);
 }
 
     /*
