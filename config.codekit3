@@ -9,43 +9,6 @@
 	],
 "creatorBuild": "25813",
 "files": {
-	"\/build\/css\/styles.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/docs\/build\/css\/styles.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/build\/css\/styles.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/docs\/build\/css\/styles.css.map",
-		"oF": 0
-		},
-	"\/build\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/docs\/build\/index.html",
-		"oF": 0
-		},
-	"\/build\/js\/scripts.js": {
-		"ft": 64,
-		"mi": 0,
-		"oA": 0,
-		"oAP": "\/docs\/build\/js\/scripts.js",
-		"oF": 0,
-		"sC": 0,
-		"tS": 0
-		},
-	"\/build\/js\/scripts.js.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/docs\/build\/js\/scripts.js.map",
-		"oF": 0
-		},
 	"\/css\/_semantic.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -71,12 +34,6 @@
 		"oF": 0,
 		"oS": 3,
 		"uL": 1
-		},
-	"\/docs": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/docs\/docs",
-		"oF": 0
 		},
 	"\/fonts\/icons.eot": {
 		"ft": 8192,
@@ -286,7 +243,7 @@
 	"displayValue": "lvl-03",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "meme-dunnoGirl",
-	"lastBuiltDate": 514247126
+	"lastBuiltDate": 515637695
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
