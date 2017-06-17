@@ -1,45 +1,48 @@
 /* Stylehsheet */
-@import "semantic";
 
 :root {
-    --base: #c0a7c7;
-    --spacing: 10px;
-    --grayscale: 0%;
-}
+    --base: #71928e;
+    --spacing: 5px;
+    --br: 20px; 
+    }
 
 img {
-    padding: var(--spacing);
-    background: var(--base);
-    filter: grayscale(var(--grayscale));}
+    border: solid var(--spacing);
+    border-radius: var(--br);
+    border-image: url(http://37.media.tumblr.com/b8994e8f98176da4a21b9f58b74cc395/tumblr_n4yyn7AQv81rlmolwo1_500.gif) 50 50 50 50 repeat;
+    
+    
+    
+  
+}
 
 .hl {
     color: var(--base);
 }
 
-    /*
-      misc styles, nothing to do with CSS variables
-    */
 
-    h1 {
+/*styling of the content*/
+
+h1 {
     font-size: 60px;
-    }
+}
 
-    body {
-      text-align: center;
-    }
+body {
+    text-align: center;
+}
 
-    body {
-      background: #c0a7c7;
-      color: white;
-      font-family: 'avenir', sans-serif;
-      font-weight: 100;
-      font-size: 20px;
-    }
+body {
+    background: #f6f1eb;
+    color: #495961;
+    font-family: 'avenir', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
 
-    .controls {
-      margin-bottom: 60px;
-    }
+.controls {
+    margin-bottom: 60px;
+}
 
-    input {
-      width:100px;
-    }
+input {
+    width: 100px;
+}
